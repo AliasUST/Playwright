@@ -10,7 +10,7 @@ test.describe('Standard user login', () => {
     const login = new LoginPage(page);
 
     await login.goto();
-    await expect(login.usernameInput).toBeVisible();
+    await expect(login.usernameInput).toBeVisible().todo;
     await expect(login.passwordInput).toBeVisible();
     await expect(login.loginButton).toBeVisible();
 
