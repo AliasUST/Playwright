@@ -1,0 +1,48 @@
+- generic [ref=e202]:
+  - generic [ref=e203]:
+    - banner [ref=e204]:
+      - generic [ref=e205]:
+        - generic:
+          - generic:
+            - generic [ref=e206]:
+              - button "Open Menu" [ref=e207] [cursor=pointer]
+              - img "Open Menu" [ref=e208]
+            - generic [ref=e239]:
+              - navigation [ref=e241]:
+                - button "All Items" [ref=e242] [cursor=pointer]
+                - button "Dynamic Catalog" [ref=e243] [cursor=pointer]
+                - link "About" [ref=e245] [cursor=pointer]:
+                  - /url: https://saucelabs.com/
+                - button "Logout" [ref=e246] [cursor=pointer]
+                - button "Reset App State" [ref=e247] [cursor=pointer]
+              - generic [ref=e248]:
+                - button "Close Menu" [ref=e249] [cursor=pointer]
+                - img "Close Menu" [ref=e250]
+        - generic [ref=e209]: Swag Labs
+        - button "Cart, 1 items" [ref=e212]:
+          - generic [ref=e213]: "1"
+      - generic [ref=e214]: "Checkout: Your Information"
+    - main [ref=e216]:
+      - form "Checkout information" [ref=e218]:
+        - generic [ref=e219]:
+          - textbox "First Name" [ref=e221]
+          - textbox "Last Name" [ref=e223]
+          - textbox "Zip/Postal Code" [ref=e225]
+          - alert [ref=e258]:
+            - button "Dismiss error" [ref=e259] [cursor=pointer]
+            - text: "Error: First Name is required"
+        - generic [ref=e227]:
+          - button "Cancel" [ref=e228] [cursor=pointer]
+          - button "Continue" [active] [ref=e229] [cursor=pointer]
+  - contentinfo [ref=e230]:
+    - list [ref=e231]:
+      - listitem [ref=e232]:
+        - link "X" [ref=e233] [cursor=pointer]:
+          - /url: https://x.com/saucelabs
+      - listitem [ref=e234]:
+        - link "Facebook" [ref=e235] [cursor=pointer]:
+          - /url: https://www.facebook.com/saucelabs
+      - listitem [ref=e236]:
+        - link "LinkedIn" [ref=e237] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/sauce-labs/
+    - generic [ref=e238]: © 2026 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy

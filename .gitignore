@@ -8,3 +8,6 @@ node_modules/
 /playwright/.auth/
 # Playwright MCP local runtime artifacts
 .playwright-mcp/
+hello.txt
+test-exit-code.txt
+test-output.log
