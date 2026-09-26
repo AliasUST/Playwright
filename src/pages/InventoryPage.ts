@@ -5,7 +5,7 @@ import { ProductDetailsPage } from './ProductDetailsPage';
 export class InventoryPage extends BasePage {
   readonly productsHeading = this.page.getByText('Products', { exact: true });
   readonly productButtons = this.page.getByRole('button', { name: 'Add to cart' });
-  readonly cartLink = this.page.getByRole('button', { name: /cart/i });
+  cartLink = this.page.getByRole('button', { name: /cart/i });
   readonly productNames = this.page.getByText(/^Sauce Labs /);
   readonly firstProductName = this.productNames.first();
 
