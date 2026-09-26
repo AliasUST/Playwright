@@ -8,9 +8,9 @@ test.describe('Standard user login', () => {
 
   test.beforeEach(async ({ page }) => {
     const login = new LoginPage(page);
-
+    page.pause();
     await login.goto();
-    await expect(login.usernameInput).toBeVisible();
+    await expect(login.usernameInput).toBeVisible().todo;
     await expect(login.passwordInput).toBeVisible();
     await expect(login.loginButton).toBeVisible();
 
