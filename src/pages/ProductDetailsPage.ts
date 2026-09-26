@@ -19,7 +19,7 @@ export class ProductDetailsPage extends BasePage {
     await this.page.goto('https://www.saucedemo.com/inventory-item.html?id=4');
   }
 
-  async backToProducts(): Promise<InventoryPage> {
+  async BACKTOPRODUCT(): Promise<InventoryPage> {
     await this.backToProductsButton.click();
 
     const inventoryPage = new InventoryPage(this.page);
